@@ -10,14 +10,14 @@ In this tool the behavior trees are implemented through the python library py-tr
 
 As a study case, the tool provides a simulation scenario with a swarm of autonomous agents.
 There are two types of autonomous agents:
-- a simplified computational model of a drone with a two-dimensional motion model; and
+- a simplified computational model of a drone with a two-dimensional motion model (pyAutonomousAgents.ipynb); and
 - a computational model of the Skywalker X8 Unmanned Aerial Vehicle (UAV).
-
-
 
 PyFly-fixed-wing tool [Bohn et al. 2019] was used to simulate the Skywalker X8 UAV inside the pyAutonomousAgent tool. 
 PyFly-fixed-wing tool provides computational implementation of a 6 Degrees Of Freedom (DOF) aerodynamic model of the Skywalker X8 and its respective Proportional-Integral-Derivative (PID) controllers.
 This aerodynamic model of the Skywalker X8 was proposed and validated in [Gryte et al. 2018].
+
+The scenario with the swarm of drones is available in the file pyAutonomousAgents.ipynb. The scenario with the swarm of Skywalker X8 UAVs will be available as soon as possible.
 
 The tool generates a graphical interface, which is an animated gif, based on the final result of the simulation.
 The graphical interface is created through the python library celluloid [celluloi 2018].
