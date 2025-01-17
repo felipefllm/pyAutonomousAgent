@@ -1,5 +1,4 @@
 ![image](https://github.com/felipefllm/pyAutonomousAgent/assets/164230333/7b01a3d0-e2d9-4abd-adf0-cf032eaf0d23)
-
 ## pyAutonomousAgent
 
 pyAutonomousAgent is an open-source academic tool for modeling autonomous agent behaviors through behavior trees.
@@ -21,7 +20,7 @@ The scenario with the swarm of drones is available in the file pyAutonomousAgent
 
 The tool generates a graphical interface, which is an animated gif, based on the final result of the simulation.
 The graphical interface is created through the python library celluloid [celluloi 2018].
-An example of this interface can be seen below.
+An example of this interface can be seen in the file pyAutonomousAgent_simulation.gif.
 
 ## Bibliographic References
 
