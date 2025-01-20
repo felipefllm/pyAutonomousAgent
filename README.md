@@ -23,7 +23,7 @@ The tool generates a graphical interface, which is an animated gif, based on the
 The graphical interface is created through the python library celluloid [celluloi 2018].
 An example of this interface can be seen in the file pyAutonomousAgent_simulation.gif.
 The time interval to generate the gif file is proportional to the number of simulation frames recorded in this gif file. 
-Therefore, we can reduce this time interval decreasing the number of frames to be recorded, that is, increasing the variable step in the graphical part.
+Therefore, this time interval can be reduced by decreasing the number of frames to be recorded, that is, increasing the variable step in the graphical part.
 
 ## Bibliographic References
 
